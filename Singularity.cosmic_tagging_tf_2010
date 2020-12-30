@@ -2,5 +2,5 @@ Bootstrap: docker
 From: nvcr.io/nvidia/tensorflow:20.10-tf2-py3
 
 %post
-    sudo apt-get install cmake libhdf5-serial-dev python-dev pip install numpy scikit-build pytest
-    sudo pip install larcv
+    apt-get install cmake libhdf5-serial-dev python-dev pip install numpy scikit-build pytest
+    pip install larcv
