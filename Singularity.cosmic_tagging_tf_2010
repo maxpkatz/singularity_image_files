@@ -6,3 +6,4 @@ From: nvcr.io/nvidia/tensorflow:20.10-tf2-py3
     apt-get install -y cmake libhdf5-serial-dev
     pip install numpy scikit-build pytest
     pip install larcv
+    pip install mpi4py
